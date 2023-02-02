@@ -15,7 +15,7 @@ body {
     width: 80%;
     margin: 0 auto;
     font-family: fredoka, sans-serif;
-    min-width: 400px;
+    min-width: 600px;
     max-width: 1200px;
 }
 
@@ -47,11 +47,13 @@ main {
 /* grind */
 .column {
     float: left;
-    width: calc(100% / 3 - 60px / 3);
+    width: calc(100% / 3 - 40px / 3);
     background-color: black;
     color: white;
-    margin-right: 20px;
     margin-bottom: 40px;
+}
+.middle {
+    margin: 0 20px;
 }
 
 .photo {
